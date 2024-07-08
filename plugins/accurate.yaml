@@ -3,15 +3,15 @@ kind: Plugin
 metadata:
   name: accurate
 spec:
-  version: v1.3.0
+  version: v1.4.1
   homepage: https://github.com/cybozu-go/accurate
   platforms:
     - selector:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_darwin_amd64.tar.gz
-      sha256: 07ef230249d26ba7385ec85048a1ea6a02807e3c1c13eb5ec955c597ec2ce819
+      uri: https://github.com/cybozu-go/accurate/releases/download/v1.4.1/kubectl-accurate_v1.4.1_darwin_amd64.tar.gz
+      sha256: e6cb39dd5ae36a9034957aa9a7567be9a635751a9a608c1e7600f72f01cccb31
       bin: kubectl-accurate
       files:
         - from: kubectl-accurate
@@ -22,8 +22,8 @@ spec:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_darwin_arm64.tar.gz
-      sha256: a88f7caa316cff459e2faf5326ed7eaaac116146ffc04ef443d7ee36d1cabffa
+      uri: https://github.com/cybozu-go/accurate/releases/download/v1.4.1/kubectl-accurate_v1.4.1_darwin_arm64.tar.gz
+      sha256: f41b5653ff274b547d3d4d96e6254996ada5161a5f8980531c090f9ae7786739
       bin: kubectl-accurate
       files:
         - from: kubectl-accurate
@@ -34,8 +34,8 @@ spec:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_linux_amd64.tar.gz
-      sha256: 74e53fd712d45ddac5246b0a9a4cd73d3a370fc665add3f65f7c7dd68275c48e
+      uri: https://github.com/cybozu-go/accurate/releases/download/v1.4.1/kubectl-accurate_v1.4.1_linux_amd64.tar.gz
+      sha256: 246fd6a5be7fc1276f38fd430b996c6372531f8e65c75bb29da2e39a3b60cf30
       bin: kubectl-accurate
       files:
         - from: kubectl-accurate
@@ -46,8 +46,8 @@ spec:
         matchLabels:
           os: linux
           arch: arm64
-      uri: https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_linux_arm64.tar.gz
-      sha256: ab787616fc70f1e6d9c03fe7196d1139f8a5b86ab628ccca2810cd640df1ce1b
+      uri: https://github.com/cybozu-go/accurate/releases/download/v1.4.1/kubectl-accurate_v1.4.1_linux_arm64.tar.gz
+      sha256: 945433aa65d2a8b5c7ef6d3d55e842de2775b95ea3e109681c6b26c9d6a0b7b6
       bin: kubectl-accurate
       files:
         - from: kubectl-accurate
@@ -58,8 +58,8 @@ spec:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/cybozu-go/accurate/releases/download/v1.3.0/kubectl-accurate_v1.3.0_windows_amd64.tar.gz
-      sha256: 7c817a0080f019b0ccdecb38773edb545bf1a5fac65b528aa14bbee6956e396b
+      uri: https://github.com/cybozu-go/accurate/releases/download/v1.4.1/kubectl-accurate_v1.4.1_windows_amd64.tar.gz
+      sha256: 11acdeeae6f777f613b1b7acc931d42e379a6d1da6c6a644847f4f3040ea2404
       bin: kubectl-accurate.exe
       files:
         - from: kubectl-accurate.exe
